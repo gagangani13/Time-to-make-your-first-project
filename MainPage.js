@@ -1,12 +1,7 @@
 import React from 'react'
 import SubmittedDetails from './SubmittedDetails'
 const MainPage = () => {
-    return (
-        <div>
-        <SubmittedDetails/>
-        {/* <SubmittedDetails/> */}
-        </div>
-    )
+    return <SubmittedDetails/>   
 }
 
 export default MainPage
